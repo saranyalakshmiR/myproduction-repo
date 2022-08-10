@@ -8,6 +8,10 @@
   <name>MyWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <properties> 
+   <maven.compiler.source>2.2</maven.compiler.source>
+   <maven.compiler.target>2.2</maven.compiler.target>
+</properties>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
